@@ -4,19 +4,17 @@ import { FaWhatsapp } from "react-icons/fa6";
 
 interface Pictografia {
   id: number;
-  keywords: string[];
-  favorito: boolean;
-  usos: number;
-  idcategoria: null | number;
+  nombre: string;
 }
 
 export default function Home() {
   const [items, setItems] = useState<Pictografia[]>([]);
   const [visibleItems, setVisibleItems] = useState<Pictografia[]>([]);
+  const [selectedItems, setSelectedItems] = useState<string[]>([]); // Estado para manejar las pictografías seleccionadas
   const [loadLimit, setLoadLimit] = useState(20); // Cantidad inicial a mostrar
   const scrollContainerRef = useRef<HTMLDivElement>(null);
 
-  console.log(items)
+  console.log(items);
 
   // Cargar los datos iniciales
   useEffect(() => {
@@ -60,20 +58,59 @@ export default function Home() {
     };
   }, []);
 
+  // Manejar la selección de pictografías
+  const handleSelectItem = (nombre: string) => {
+    setSelectedItems((prevSelected) => {
+      // Si ya está seleccionado, lo quitamos; de lo contrario, lo añadimos
+      if (prevSelected.includes(nombre)) {
+        return prevSelected.filter((item) => item !== nombre);
+      } else {
+        return [...prevSelected, nombre];
+      }
+    });
+  };
+
+  // Manejar el botón de compartir
+  const handleShare = () => {
+    const message = selectedItems.join(", "); // Crear el mensaje con los nombres seleccionados
+    if (message) {
+      const whatsappUrl = `https://wa.me/?text=${encodeURIComponent(message)}`;
+      window.open(whatsappUrl, "_blank"); // Abrir WhatsApp en una nueva pestaña
+    } else {
+      alert("Selecciona al menos una pictografía para compartir.");
+    }
+  };
+
+  // Manejar el botón de audio (texto a voz)
+  const handleSpeak = () => {
+    const message = selectedItems.join(", "); // Crear el mensaje con los nombres seleccionados
+    if (message) {
+      const utterance = new SpeechSynthesisUtterance(message);
+      utterance.lang = "es-ES"; // Idioma español
+      window.speechSynthesis.speak(utterance);
+    } else {
+      alert("Selecciona al menos una pictografía para reproducir el audio.");
+    }
+  };
+
   return (
     <div className="h-screen flex flex-col">
       {/* Barra Superior */}
       <div className="fixed top-0 left-0 right-0 bg-gray-200 flex items-center justify-between px-4 py-2 shadow-md">
         <div className="flex-1 text-gray-700 text-lg">
-          <p className="truncate">Texto...</p>
+          {/* Mostrar las pictografías seleccionadas */}
+          <p className="truncate">{selectedItems.join(", ") || "Texto..."}</p>
         </div>
         <div className="flex space-x-2">
-          <button className="bg-gray-400 text-white p-2 rounded-full shadow hover:bg-gray-500">
+          <button
+            className="bg-gray-400 text-white p-2 rounded-full shadow hover:bg-gray-500"
+            onClick={handleSpeak}
+          >
             <AiOutlineSound />
           </button>
           <button
             className="bg-gray-400 text-white p-2 rounded-full shadow hover:bg-gray-500"
-            onClick={() => navigator.share && navigator.share({ title: "Compartir", url: window.location.href })}
+            onClick={handleShare}
           >
             <FaWhatsapp />
           </button>
@@ -88,7 +125,10 @@ export default function Home() {
         {visibleItems.map((item) => (
           <button
             key={item.id}
-            className="bg-white border rounded-lg shadow p-4 flex items-center justify-center text-center"
+            className={`bg-white border rounded-lg shadow p-4 flex items-center justify-center text-center ${
+              selectedItems.includes(item.nombre) ? "bg-blue-200" : ""
+            }`}
+            onClick={() => handleSelectItem(item.nombre)}
           >
             <div className="text-sm">
               <img
@@ -96,7 +136,7 @@ export default function Home() {
                 alt={`Pictograma ${item.id}`}
                 className="mx-auto mb-2"
               />
-              <p>{item.keywords.join(", ")}</p>
+              <p>{item.nombre}</p>
             </div>
           </button>
         ))}

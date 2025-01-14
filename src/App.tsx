@@ -16,6 +16,8 @@ export default function Home() {
   const [loadLimit, setLoadLimit] = useState(20); // Cantidad inicial a mostrar
   const scrollContainerRef = useRef<HTMLDivElement>(null);
 
+  console.log(items)
+
   // Cargar los datos iniciales
   useEffect(() => {
     fetch("/data/items/es.json")

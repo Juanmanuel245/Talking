@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+button.bg-blue-200 {
+    background-color: #bfdbfe; /* Azul claro */
+    border-color: #60a5fa; /* Borde azul */
+  }
+  
+  button.bg-blue-200:active {
+    background-color: #93c5fd; /* Azul más claro */
+  }

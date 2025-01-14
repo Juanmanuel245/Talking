@@ -1,6 +1,7 @@
 import { useEffect, useState, useRef } from "react";
 import { AiOutlineSound } from "react-icons/ai";
 import { FaWhatsapp } from "react-icons/fa6";
+import { IoClose } from "react-icons/io5"; // Icono de la cruz blanca
 
 interface Pictografia {
   id: number;
@@ -93,27 +94,18 @@ export default function Home() {
     }
   };
 
+  // Manejar el botón para limpiar la selección
+  const handleClearSelection = () => {
+    setSelectedItems([]); // Limpiar todos los elementos seleccionados
+  };
+
   return (
     <div className="h-screen flex flex-col">
       {/* Barra Superior */}
-      <div className="fixed top-0 left-0 right-0 bg-gray-200 flex items-center justify-between px-4 py-2 shadow-md">
-        <div className="flex-1 text-gray-700 text-lg">
+      <div className="fixed top-0 left-0 right-0 bg-gray-200 px-4 py-2 shadow-md">
+        <div className="text-gray-700 text-lg break-words whitespace-pre-wrap">
           {/* Mostrar las pictografías seleccionadas */}
-          <p className="truncate">{selectedItems.join(", ") || "Texto..."}</p>
-        </div>
-        <div className="flex space-x-2">
-          <button
-            className="bg-gray-400 text-white p-2 rounded-full shadow hover:bg-gray-500"
-            onClick={handleSpeak}
-          >
-            <AiOutlineSound />
-          </button>
-          <button
-            className="bg-gray-400 text-white p-2 rounded-full shadow hover:bg-gray-500"
-            onClick={handleShare}
-          >
-            <FaWhatsapp />
-          </button>
+          <p>{selectedItems.join(", ") || "Selecciona los pictogramas..."}</p>
         </div>
       </div>
 
@@ -125,9 +117,8 @@ export default function Home() {
         {visibleItems.map((item) => (
           <button
             key={item.id}
-            className={`bg-white border rounded-lg shadow p-4 flex items-center justify-center text-center ${
-              selectedItems.includes(item.nombre) ? "bg-blue-200" : ""
-            }`}
+            className={`bg-white border rounded-lg shadow p-4 flex items-center justify-center text-center ${selectedItems.includes(item.nombre) ? "bg-blue-200 border-blue-500" : ""
+              }`}
             onClick={() => handleSelectItem(item.nombre)}
           >
             <div className="text-sm">
@@ -141,6 +132,40 @@ export default function Home() {
           </button>
         ))}
       </div>
+
+      {/* Botón flotante para limpiar selección */}
+      {/* Botón flotante para limpiar selección */}
+      {selectedItems.length > 0 && (
+        <div className="fixed bottom-48 right-4">
+          <button
+            className="bg-red-500 text-white p-4 rounded-full shadow hover:bg-red-600"
+            onClick={handleClearSelection}
+          >
+            <IoClose size={24} />
+          </button>
+        </div>
+      )}
+
+      {/* Botón flotante de WhatsApp */}
+      <div className="fixed bottom-32 right-4">
+        <button
+          className="bg-green-600 text-white p-4 rounded-full shadow hover:bg-green-700"
+          onClick={handleShare}
+        >
+          <FaWhatsapp size={24} />
+        </button>
+      </div>
+
+      {/* Botón flotante de Sonido */}
+      <div className="fixed bottom-16 right-4">
+        <button
+          className="bg-blue-700 text-white p-4 rounded-full shadow hover:bg-blue-800"
+          onClick={handleSpeak}
+        >
+          <AiOutlineSound size={24} />
+        </button>
+      </div>
+
 
       {/* Barra Inferior */}
       <div className="fixed bottom-0 left-0 right-0 bg-gray-200 shadow-md">

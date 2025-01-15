@@ -1,0 +1,19 @@
+[
+    {"id": 2261, "nombre": "asustado", "categoria": "emociones"},
+    {"id": 2245, "nombre": "aburrido", "categoria": "emociones"},
+    {"id": 2300, "nombre": "caluroso", "categoria": "emociones"},
+    {"id": 2314, "nombre": "cansado", "categoria": "emociones"},
+    {"id": 2352, "nombre": "confuso", "categoria": "emociones"},
+    {"id": 2367, "nombre": "dolor", "categoria": "emociones"},
+    {"id": 2374, "nombre": "enfadado", "categoria": "emociones"},
+    {"id": 2464, "nombre": "mareado", "categoria": "emociones"},
+    {"id": 2574, "nombre": "sorprendido", "categoria": "emociones"},
+    {"id": 2606, "nombre": "triste", "categoria": "emociones"},
+    {"id": 11593, "nombre": "¡yo, tampoco!", "categoria": "emociones"},
+    {"id": 11591, "nombre": "¡yo, también!", "categoria": "emociones"},
+    {"id": 7180, "nombre": "yo no sé", "categoria": "emociones"},
+    {"id": 6156, "nombre": "yo no quiero", "categoria": "emociones"},
+    {"id": 37232, "nombre": "empatía", "categoria": "emociones"}
+
+   
+]

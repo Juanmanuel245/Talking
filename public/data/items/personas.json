@@ -1,0 +1,220 @@
+[
+    {
+        "id": 2255,
+        "nombre": "amigos",
+        "categoria": "personas"
+    },
+    {
+        "id": 2243,
+        "nombre": "abuela",
+        "categoria": "personas"
+    },
+    {
+        "id": 2244,
+        "nombre": "abuelo",
+        "categoria": "personas"
+    },
+    {
+        "id": 2275,
+        "nombre": "bebé",
+        "categoria": "personas"
+    },
+    {
+        "id": 2392,
+        "nombre": "familia",
+        "categoria": "personas"
+    },
+    {
+        "id": 2422,
+        "nombre": "hermana",
+        "categoria": "personas"
+    },
+    {
+        "id": 2423,
+        "nombre": "hermano",
+        "categoria": "personas"
+    },
+    {
+        "id": 2458,
+        "nombre": "mamá",
+        "categoria": "personas"
+    },
+    {
+        "id": 2485,
+        "nombre": "chico",
+        "categoria": "personas"
+    },
+    {
+        "id": 2484,
+        "nombre": "niña",
+        "categoria": "personas"
+    },
+    {
+        "id": 2497,
+        "nombre": "padre",
+        "categoria": "personas"
+    },
+    {
+        "id": 2608,
+        "nombre": "tú",
+        "categoria": "personas"
+    },
+    {
+        "id": 2617,
+        "nombre": "yo",
+        "categoria": "personas"
+    },
+    {
+        "id": 6876,
+        "nombre": "abuelos",
+        "categoria": "personas"
+    },
+    {
+        "id": 6974,
+        "nombre": "niñas",
+        "categoria": "personas"
+    },
+    {
+        "id": 6975,
+        "nombre": "niños",
+        "categoria": "personas"
+    },
+    {
+        "id": 9885,
+        "nombre": "hija",
+        "categoria": "personas"
+    },
+    {
+        "id": 9887,
+        "nombre": "hijo",
+        "categoria": "personas"
+    },
+  
+    {
+        "id": 10342,
+        "nombre": "nieta",
+        "categoria": "personas"
+    },
+    {
+        "id": 10343,
+        "nombre": "nieto",
+        "categoria": "personas"
+    },
+    {
+        "id": 10363,
+        "nombre": "niño",
+        "categoria": "personas"
+    },
+    {
+        "id": 12252,
+        "nombre": "apoyo",
+        "categoria": "personas"
+    },
+    {
+        "id": 24517,
+        "nombre": "familia adoptiva",
+        "categoria": "personas"
+    },
+    {
+        "id": 30255,
+        "nombre": "tío",
+        "categoria": "personas"
+    },
+    {
+        "id": 30271,
+        "nombre": "tía",
+        "categoria": "personas"
+    },
+    {
+        "id": 30288,
+        "nombre": "sobrino",
+        "categoria": "personas"
+    },
+    {
+        "id": 30302,
+        "nombre": "sobrina",
+        "categoria": "personas"
+    },
+    {
+        "id": 30318,
+        "nombre": "primos",
+        "categoria": "personas"
+    },
+    {
+        "id": 30340,
+        "nombre": "primo",
+        "categoria": "personas"
+    },
+    {
+        "id": 30357,
+        "nombre": "prima",
+        "categoria": "personas"
+    },
+    {
+        "id": 30372,
+        "nombre": "primas",
+        "categoria": "personas"
+    },
+    {
+        "id": 31146,
+        "nombre": "papá",
+        "categoria": "personas"
+    },
+    {
+        "id": 31148,
+        "nombre": "madre",
+        "categoria": "personas"
+    },
+    {
+        "id": 34510,
+        "nombre": "hermanos",
+        "categoria": "personas"
+    },
+    {
+        "id": 34841,
+        "nombre": "tíos",
+        "categoria": "personas"
+    },
+    {
+        "id": 35059,
+        "nombre": "padres",
+        "categoria": "personas"
+    },
+    {
+        "id": 35067,
+        "nombre": "madres",
+        "categoria": "personas"
+    },
+    {
+        "id": 36715,
+        "nombre": "niña con pañal",
+        "categoria": "personas"
+    },
+    {
+        "id": 36716,
+        "nombre": "niño con pañal",
+        "categoria": "personas"
+    },
+    {
+        "id": 36803,
+        "nombre": "niño con mascarilla",
+        "categoria": "personas"
+    },
+    {
+        "id": 36806,
+        "nombre": "niña con mascarilla",
+        "categoria": "personas"
+    },
+    {
+        "id": 36865,
+        "nombre": "niña con pantalla",
+        "categoria": "personas"
+    },
+    {
+        "id": 36866,
+        "nombre": "niño con pantalla",
+        "categoria": "personas"
+    }
+  
+ 
+]

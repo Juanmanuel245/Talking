@@ -1,0 +1,597 @@
+[
+    {
+        "id": 2248,
+        "nombre": "agua",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 2316,
+        "nombre": "carne",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 2296,
+        "nombre": "café",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 2328,
+        "nombre": "cereales",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 2329,
+        "nombre": "cerezas",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 2330,
+        "nombre": "cerveza",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 2334,
+        "nombre": "chocolate",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 2335,
+        "nombre": "chorizo",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 2358,
+        "nombre": "croissant",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 2368,
+        "nombre": "dónut",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 2383,
+        "nombre": "espaguetis",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 2384,
+        "nombre": "espárragos",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 2377,
+        "nombre": "ensalada",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 2402,
+        "nombre": "galletas",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 2405,
+        "nombre": "garbanzos",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 2419,
+        "nombre": "hamburguesa",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 2420,
+        "nombre": "cucurucho de helado",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 2428,
+        "nombre": "huevo frito",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 2433,
+        "nombre": "jamón",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 2445,
+        "nombre": "leche",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 2446,
+        "nombre": "lechuga",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 2455,
+        "nombre": "macarrones",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 2461,
+        "nombre": "mantequilla",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 2427,
+        "nombre": "huevo",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 2462,
+        "nombre": "manzana",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 2468,
+        "nombre": "melocotón",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 2469,
+        "nombre": "melón",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 2470,
+        "nombre": "mermelada",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 2448,
+        "nombre": "lentejas",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 2483,
+        "nombre": "naranja",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 2494,
+        "nombre": "pan",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 2500,
+        "nombre": "paraguas",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 2505,
+        "nombre": "patatas fritas",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 2503,
+        "nombre": "patata",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 2519,
+        "nombre": "pescado",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 2525,
+        "nombre": "anana",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 2527,
+        "nombre": "pizza",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 2533,
+        "nombre": "pollo",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 2534,
+        "nombre": "muslo de pollo",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 2539,
+        "nombre": "puré",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 2530,
+        "nombre": "banana",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 2541,
+        "nombre": "queso",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 2555,
+        "nombre": "salchichas",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 2557,
+        "nombre": "sandía",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 2573,
+        "nombre": "sopa",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 2579,
+        "nombre": "tarta",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 2581,
+        "nombre": "taza de café",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 2614,
+        "nombre": "vino",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 2619,
+        "nombre": "zanahoria",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 2625,
+        "nombre": "juego de anana",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 2624,
+        "nombre": "jugo de naranja",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 2787,
+        "nombre": "tostada",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 2784,
+        "nombre": "turrón",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 2865,
+        "nombre": "pan",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 2994,
+        "nombre": "panceta",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 3300,
+        "nombre": "empanadillas",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 3331,
+        "nombre": "galleta de chocolate",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 4769,
+        "nombre": "vaso de leche",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 4768,
+        "nombre": "vaso de agua",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 4952,
+        "nombre": "pollo asado",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 6569,
+        "nombre": "naranjada",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 6911,
+        "nombre": "arroz",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 7132,
+        "nombre": "huevo duro",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 7192,
+        "nombre": "panal",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 8009,
+        "nombre": "palta",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 8063,
+        "nombre": "carroza",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 8655,
+        "nombre": "pechuga de pollo",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 8730,
+        "nombre": "rodaja de naranja",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 9059,
+        "nombre": "rebanada de pan",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 10227,
+        "nombre": "hamburguesa y patatas fritas",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 10228,
+        "nombre": "leche y galletas",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 11304,
+        "nombre": "huevo de chocolate",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 11337,
+        "nombre": "pescadora",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 16651,
+        "nombre": "empanada",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 21326,
+        "nombre": "chocolate a la taza",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 24495,
+        "nombre": "agua dulce",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 24501,
+        "nombre": "agua salada",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 24499,
+        "nombre": "agua potable",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 27129,
+        "nombre": "vino blanco",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 27131,
+        "nombre": "vino rosado",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 27130,
+        "nombre": "vino espumoso",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 27154,
+        "nombre": "acelga con patatas",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 28018,
+        "nombre": "queso azul",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 29044,
+        "nombre": "pescado a la parrilla",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 29163,
+        "nombre": "huevos fritos con patatas",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 29195,
+        "nombre": "pollo con patatas",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 29191,
+        "nombre": "plato de jamón",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 29226,
+        "nombre": "torta de chocolate",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 29548,
+        "nombre": "huevos fritos",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 34039,
+        "nombre": "huevos",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 34045,
+        "nombre": "plátanos",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 34092,
+        "nombre": "cono de chocolate",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 34127,
+        "nombre": "espárragos verdes",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 35209,
+        "nombre": "helado",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 35635,
+        "nombre": "carne picada",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 35763,
+        "nombre": "queso de vaca",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 35815,
+        "nombre": "palitos de pollo",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 36428,
+        "nombre": "pescado a la plancha",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 36429,
+        "nombre": "pescado hervido",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 36586,
+        "nombre": "rebanadas de pan",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 36988,
+        "nombre": "dulce de leche",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 37001,
+        "nombre": "milanesa de pollo",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 37452,
+        "nombre": "huevos de Pascua",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 37495,
+        "nombre": "frutillas",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 38420,
+        "nombre": "agua con gas",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 38490,
+        "nombre": "chocolate blanco",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 38501,
+        "nombre": "galletas oreo",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 38502,
+        "nombre": "galletas de chocolate",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 38525,
+        "nombre": "alfajor de dulce de leche",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 38699,
+        "nombre": "trozo de pizza",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 38956,
+        "nombre": "filete de carne",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 38959,
+        "nombre": "loncha de queso",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 38961,
+        "nombre": "rodajas de chorizo",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 38963,
+        "nombre": "filete de jamón",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 38983,
+        "nombre": "pelar una patata",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 39121,
+        "nombre": "espaguetis carbonara",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 39125,
+        "nombre": "pantorrilla",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 39205,
+        "nombre": "trufas de chocolate",
+        "categoria": "alimentos"
+    },
+    {
+        "id": 39250,
+        "nombre": "chocolate negro",
+        "categoria": "alimentos"
+    }
+]
